@@ -63,7 +63,7 @@ timer_box.textContent = time;
 
 let interval;
 function startInterval() {
-  time = 10;
+  time = 5;
   timer_box.textContent = time;
   interval = setInterval(() => {
     time--;
